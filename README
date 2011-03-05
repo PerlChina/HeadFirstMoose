@@ -1,0 +1,7 @@
+所有的代码依据《Head First Design Pattern》，中译《深入浅出设计模式》而写的。
+
+使用Moose实现。
+
+测试环境。
+Debian 5
+Perl 5.10
