@@ -1,10 +1,23 @@
-所有的代码依据《Head First Design Pattern》，中译《深入浅出设计模式》而写的。
+=head1 介绍
 
-使用Moose实现。
+	所有的代码依据《Head First Design Pattern》，中译《深入浅出设计模式》而写的，但并非全部相同。
 
-测试环境。
-Debian 5
-Perl 5.10
+	使用Moose实现。
 
-Strategy 策略模式
-Observer 观察者模式
+=head1 测试环境。
+
+	Debian 5 lenny
+	Perl 5.10
+
+=head1 代码结构
+
+	Strategy 策略模式
+	Observer 观察者模式
+
+=head1 AUTHOR
+
+	Beckheng Lam <beckheng@gmail.com>
+	
+=head1 LICENSE
+
+	
