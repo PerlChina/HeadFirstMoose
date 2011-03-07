@@ -5,7 +5,7 @@ use Moose;
 use Quack;
 use FlyWithWings;
 
-=head1 rolse
+=head1 roles
 
 =cut
 
@@ -19,7 +19,7 @@ sub BUILD
 {
 	my $self = shift;
 	
-	$self->flyBehavior(FlyWithWings->new());
+	$self->setFlyBehavior(FlyWithWings->new());
 	$self->quackBehavior(Quack->new());
 }
 

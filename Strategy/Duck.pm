@@ -7,8 +7,9 @@ use Moose::Role;
 =cut
 
 has 'flyBehavior' => (
-	is => 'rw',
+	is => 'ro',
 	isa => 'FlyBehavior',
+	writer => 'setFlyBehavior',
 );
 
 has 'quackBehavior' => (
@@ -42,18 +43,6 @@ sub performQuack
 {
 	my $self = shift;
 	$self->quackBehavior->quack();
-}
-
-=head2 setFlyBehavior
-
-=cut
-
-sub setFlyBehavior
-{
-	my $self = shift;
-	my $fb = shift;
-	
-	$self->flyBehavior($fb);
 }
 
 =head2 setQuackBehavior

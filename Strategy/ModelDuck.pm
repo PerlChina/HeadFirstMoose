@@ -19,7 +19,7 @@ sub BUILD
 {
 	my $self = shift;
 	
-	$self->flyBehavior(FlyNoWay->new());
+	$self->setFlyBehavior(FlyNoWay->new());
 	$self->quackBehavior(Quack->new());
 }
 
