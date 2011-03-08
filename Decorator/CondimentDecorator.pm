@@ -12,7 +12,7 @@ with 'Beverage';
 
 =head1 attributes
 
-	beverage
+	beverage, 我将此属性在此类定义，而非扩展类中定义
 
 =cut
 
