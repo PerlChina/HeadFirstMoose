@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 
+use strict;
+
 use FindBin;
 use lib $FindBin::Bin;
-
-use Data::Dumper;
 
 use WeatherData;
 use CurrentConditionsDisplay;
