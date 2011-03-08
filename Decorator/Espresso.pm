@@ -4,6 +4,8 @@ use Moose;
 
 =head1 roles
 
+	Beverage
+
 =cut
 
 with 'Beverage';
@@ -18,6 +20,8 @@ sub _buildDescription
 }
 
 =head1 methods
+
+=head2 cost
 
 =cut
 

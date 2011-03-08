@@ -4,11 +4,15 @@ use Moose::Role;
 
 =head1 roles
 
+	Beverage
+
 =cut
 
 with 'Beverage';
 
 =head1 attributes
+
+	beverage
 
 =cut
 

@@ -4,6 +4,8 @@ use Moose;
 
 =head1 roles
 
+	Beverage
+
 =cut
 
 with 'Beverage';
@@ -16,6 +18,12 @@ sub _buildDescription
 {
 	return 'House Blend Coffee';
 }
+
+=head1 methods
+
+=head2 cost
+
+=cut
 
 sub cost
 {
