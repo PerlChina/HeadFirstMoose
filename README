@@ -13,6 +13,7 @@
 
 	Strategy 策略模式
 	Observer 观察者模式
+	Decorator 装饰者模式
 
 =head1 AUTHOR
 
