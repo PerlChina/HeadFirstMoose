@@ -1,19 +1,29 @@
 =head1 介绍
 
-	所有的代码依据《Head First Design Pattern》，中译《深入浅出设计模式》而写的，但并非全部相同。
+	所有的代码依据《Head First Design Pattern》——中译《深入浅出设计模式》而写的，
+	但并非全部相同，亦可能有部分缺失。
 
-	使用Moose实现。
+	使用Perl + Moose实现。
+	
+	沿用Head First的习惯，将此作品命名为《Head First Moose》。
+	但内容没有任何关于Moose的介绍，当然注释中会略带些概念。
+	关于Moose的介绍及手册，请到CPAN上阅读，或者在github.com上搜索fayland的中文书，
+	还有modern perl一书，亦在github.com上。
+	
+	这里是关于OO概念的实现，任何能保留概念但能提高效率的代码，欢迎提出，谢谢！
+	欢迎交流任何意见与提议，不要客气，请电邮至bi.ken.lam@gmail.com。
 
 =head1 测试环境。
 
-	Debian 5 lenny
-	Perl 5.10
+	Debian 5 lenny x86_64
+	Perl v5.10.1
 
 =head1 代码结构
 
 	Strategy 策略模式
 	Observer 观察者模式
 	Decorator 装饰者模式
+	Factory Method 工厂方法模式
 
 =head1 AUTHOR
 
@@ -21,4 +31,4 @@
 	
 =head1 LICENSE
 
-	
+	本作品由Beckheng Lam创作，采用知识共享署名-非商业性使用-相同方式共享 3.0 Unported许可协议进行许可。
