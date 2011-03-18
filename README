@@ -28,6 +28,7 @@
 	Observer 观察者模式
 	Decorator 装饰者模式
 	Factory Method 工厂方法模式
+	Abstract Factory 抽象工厂模式
 
 =head1 AUTHOR
 
