@@ -29,6 +29,8 @@
 	Decorator 装饰者模式
 	Factory Method 工厂方法模式
 	Abstract Factory 抽象工厂模式
+	Singleton 单件模式(请参考MooseX::Singleton)
+	Command 命令模式
 
 =head1 AUTHOR
 
